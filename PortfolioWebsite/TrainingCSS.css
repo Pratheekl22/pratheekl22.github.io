@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0B0C10;
+  font-family: 'Lateef', cursive;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #0B0C10;
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  justify-content: space-between;
+}
+
+
+.header h2 {
+  font-family: 'Alex Brush', cursive;
+  color: #66FCF1;
+  text-align: left;
+  font-size: 50px;
+  float: left;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+nav {
+  float: right;
+  text-align: end;
+  transform: translate(-50px, -50px);
+}
+
+nav ul {
+  position: sticky;
+  top: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #66FCF1;
+}
+
+a {
+  text-decoration: none;
+  color: #45a29e;
+}
+
+a:hover {
+  color: deeppink;
+}
+
+#mainMenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 25px;
+  top: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 100px;
+  position: relative;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.header1 {
+  font-family: 'Alex Brush', cursive;
+  color: #66FCF1;
+  text-align: center;
+  font-size: 40px;
+}
+
+.aboutMe {
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  background: #1f2833;
+}
+
+.aboutMe img {
+  padding-right: 20px;
+  transform: translate(0, -10px);
+}
+
+.aboutMe p {
+  text-align: left;
+  color: #c5c6c7;
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+blockquote {
+  font-family: 'Alex Brush', cursive;
+  font-size: 40px;
+  color: #45a29e;
+  text-align: center;
+
+}
+
+.ProgrammingHome p {
+  text-align: left;
+  color: #c5c6c7;
+  font-size: 30px;
+  padding-left: 5px;
+}
+
+.FilmHome p {
+  text-align: left;
+  color: #c5c6c7;
+  font-size: 30px;
+  padding-left: 5px;
+}
+
+.FilmHome {
+  width: 100%;
+  height: 225px;
+  margin: 0;
+  background: #1f2833;
+}
+
+.TravelHome p {
+  text-align: left;
+  color: #c5c6c7;
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+.TravelHome img {
+  padding-right: 20px;
+}
+
+.header2 {
+  font-family: 'Alex Brush', cursive;
+  color: #66FCF1;
+  text-align: left;
+  font-size: 35px;
+  padding-left: 5px;
+}
+
+.JavaProgram {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  background: #1f2833;
+}
+
+.JavaProgram p {
+  text-align: left;
+  color: #c5c6c7;
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.PythonProgram p {
+  text-align: left;
+  color: #c5c6c7;
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.Git {
+  color: #c5c6c7;
+  text-align: center;
+  font-size: 30px;
+  padding-left: 5px;
+}
+
+.houstonTrip p {
+  text-align: left;
+  color: #c5c6c7;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.bahamasTrip p {
+  text-align: left;
+  color: #c5c6c7;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.Bgallery {
+  margin: 10px 50px;
+}
+
+.Bgallery img {
+  transition: 1s;
+  width: 200px;
+  padding: 15px;
+  opacity: .8;
+}
+
+.Bgallery img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+
+
+
+
+
+
